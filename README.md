@@ -1,7 +1,6 @@
 # Telegram Saved Messages Transfer
 
-[![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg)](LICENSE)
-[![CI](https://github.com/YOUR_USERNAME/telegram-saved-messages-transfer/actions/workflows/ci.yml/badge.svg)](https://github.com/YOUR_USERNAME/telegram-saved-messages-transfer/actions/workflows/ci.yml)
+[![CI](https://github.com/thedevopsre/telegram-transfer/actions/workflows/ci.yml/badge.svg)](https://github.com/thedevopsre/telegram-transfer/actions/workflows/ci.yml)
 
 Bulk-forward posts from your Telegram **Saved Messages** into a **private channel** you own — from your Mac, with a simple web UI.
 
@@ -45,8 +44,8 @@ Telegram Desktop/Web makes it hard to select hundreds of Saved Messages and forw
 ### 1. Clone the repository
 
 ```bash
-git clone https://github.com/YOUR_USERNAME/telegram-saved-messages-transfer.git
-cd telegram-saved-messages-transfer
+git clone https://github.com/thedevopsre/telegram-transfer.git
+cd telegram-transfer
 ```
 
 ### 2. Telegram API credentials
@@ -146,7 +145,6 @@ pytest backend/tests/ -v
 ├── frontend/          # React + Vite
 ├── data/              # Local session & DB (gitignored)
 ├── .env.example
-├── LICENSE
 └── SECURITY.md
 ```
 
@@ -186,12 +184,6 @@ pytest backend/tests/ -v
 | POST | `/jobs/start` | Start transfer |
 
 Full interactive docs: http://127.0.0.1:8000/docs (local only)
-
----
-
-## License
-
-[MIT](LICENSE) — use, modify, and distribute with attribution.
 
 ---
 
